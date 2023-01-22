@@ -2,10 +2,14 @@
 /* Your CSS Code here. */
 
 holder{
-	background:red;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	width: 400px;
-	height: 400px;
+	width : 200px;
+	height :200px;
+/* 	gap : 10px; */
 }
+div{
+	background:red;
+}
+
